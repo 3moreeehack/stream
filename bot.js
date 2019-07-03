@@ -17,7 +17,7 @@ client.on('ready', () => {
 
 
 
-    const dreamv2 = ["357259240349630466"]
+    const dreamv2 = ["483738165652488201"]
     client.on('message', message => {
         var dream = message.content.split(` `).slice(1).join(' ');
           if (!dreamv2.includes(message.author.id)) return;
